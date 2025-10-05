@@ -40,7 +40,8 @@ android {
 }
 
 dependencies {
-
+    implementation(project(":feature-habits"))
+    implementation(project(":core"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
